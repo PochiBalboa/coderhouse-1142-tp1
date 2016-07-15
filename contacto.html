@@ -47,3 +47,18 @@
 	</footer>
 </body>
 </html>
+
+<!--
+	Correcciones:
+	*************
+	
+	Acá aplican las mismas correcciones de index.html, y además estas:
+	
+	* Los dos formularios separados que creaste deberían estar unificados, mientras
+	  que el submit que dejaste afuera debería estar dentro de un tag <form>. Cuando
+	  se clickea un submit que está afuera de un formulario, se envía el formulario
+	  inmediatamente anterior al submit. Es decir que, en este caso, solamente se
+	  enviarían los datos del formulario que tiene el <textarea>, no el que tiene
+	  nombre, apellido y localidad.
+	* Falta la propiedad "name" en <textarea>.
+-->
